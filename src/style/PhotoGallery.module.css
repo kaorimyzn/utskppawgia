@@ -1,0 +1,86 @@
+.photoGallery {
+    margin: 20px auto;
+    max-width: 1024px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .photoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .photoImg {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  .photoTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .photoDescription {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .photoFormField {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .photoFormField input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .photoFormField input::placeholder {
+    color: #ccc;
+  }
+  
+  .photoFormSubmit {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .photoFormSubmit:hover {
+    background-color: #0063cc;
+  }
